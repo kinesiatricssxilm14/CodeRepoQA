@@ -45,95 +45,97 @@ We performed the crawling in August 2024.
 | apache/dubbo| Java| 6934|
 
 The properties related to QA are listed below:
-- url
-- repository_url
-- labels_url
-- comments_url
-- events_url
-- html_url
-- id
-- node_id
-- number
-- ***title***
-- labels
-  - []
-    - id
-    - node_id
-    - url
-    - name
-    - color
-    - default
-    - description
-- state
-- locked
-- assignee
-- assignees
-- milestone
-- comments
-- ***created_at***
-- updated_at
-- closed_at
-- author_association
-- active_lock_reason
-- ***body***
-- reactions
-  - url
-  - total_count
-  - +1
-  - -1
-  - laugh
-  - hooray
-  - confused
-  - heart
-  - rocket
-  - eyes
-- timeline_url
-- performed_via_github_app
-- state_reason
-- ***comments_details***
-  - []
-    - url
-    - html_url
-    - issue_url
-    - id
-    - node_id
-    - user
-      - login
-      - id
-      - node_id
-      - avatar_url
-      - gravatar_id
-      - url
-      - html_url
-      - followers_url
-      - following_url
-      - gists_url
-      - starred_url
-      - subscriptions_url
-      - organizations_url
-      - repos_url
-      - events_url
-      - received_events_url
-      - type
-      - site_admin
-    - created_at
-    - updated_at
-    - ***author_association***
-    - ***body***
-    - reactions
-      - url
-      - total_count
-      - +1
-      - -1
-      - laugh
-      - hooray
-      - confused
-      - heart
-      - rocket
-      - eyes
-    - performed_via_github_app
-- issue_or_pr
-- cite
-- cited_by
-- fixed_by
-- duplicate
+```diff
+               - url
+               - repository_url
+               - labels_url
+               - comments_url
+               - events_url
+               - html_url
+               - id
+               - node_id
+               - number
++              - title
+               - labels
+                 - []
+                   - id
+                   - node_id
+                   - url
+                   - name
+                   - color
+                   - default
+                   - description
+               - state
+               - locked
+               - assignee
+               - assignees
+               - milestone
+               - comments
++              - created_at
+               - updated_at
+               - closed_at
+               - author_association
+               - active_lock_reason
++              - body
+               - reactions
+                 - url
+                 - total_count
+                 - +1
+                 - -1
+                 - laugh
+                 - hooray
+                 - confused
+                 - heart
+                 - rocket
+                 - eyes
+               - timeline_url
+               - performed_via_github_app
+               - state_reason
++              - comments_details
+                 - []
+                   - url
+                   - html_url
+                   - issue_url
+                   - id
+                   - node_id
+                   - user
+                     - login
+                     - id
+                     - node_id
+                     - avatar_url
+                     - gravatar_id
+                     - url
+                     - html_url
+                     - followers_url
+                     - following_url
+                     - gists_url
+                     - starred_url
+                     - subscriptions_url
+                     - organizations_url
+                     - repos_url
+                     - events_url
+                     - received_events_url
+                     - type
+                     - site_admin
+                   - created_at
+                   - updated_at
++                  - author_association
++                  - body
+                   - reactions
+                     - url
+                     - total_count
+                     - +1
+                     - -1
+                     - laugh
+                     - hooray
+                     - confused
+                     - heart
+                     - rocket
+                     - eyes
+                   - performed_via_github_app
+               - issue_or_pr
+               - cite
+               - cited_by
+               - fixed_by
+               - duplicate
+```
