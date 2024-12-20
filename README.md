@@ -6,7 +6,10 @@ CodeRepoQA is the dataset for the paper:
 
 "[CodeRepoQA: A Large-scale Benchmark for Software Engineering Question Answering](https://arxiv.org/abs/2412.14764)"
 
-You can get access to the dataset by: https://drive.google.com/drive/folders/19-7gqlcYuwbbHAqYyzMMov7tuTTwHfcY?usp=sharing
+You can get access to the dataset by:
+```
+https://drive.google.com/drive/folders/19-7gqlcYuwbbHAqYyzMMov7tuTTwHfcY?usp=sharing
+```
 
 We crawled a total of thirty GitHub open-source repositories and extracted and filtered a total of 585,687 issues as a multi-turn dialogue dataset.
 
