@@ -44,7 +44,7 @@ We performed the crawling in August 2024.
 | google/guava| Java| 3342|
 | apache/dubbo| Java| 6934|
 
-The properties related to QA are listed below:
+The properties related to QA are listed below, and the attributes with a green background are directly related to QA:
 ```diff
                - url
                - repository_url
