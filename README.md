@@ -2,10 +2,6 @@
 
 CodeRepoQA dataset🚀
 
-CodeRepoQA is the dataset for the paper:
-
-"[CodeRepoQA: A Large-scale Benchmark for Software Engineering Question Answering](https://arxiv.org/abs/2412.14764)"
-
 You can get access to the dataset by:
 ```
 https://drive.google.com/drive/folders/19-7gqlcYuwbbHAqYyzMMov7tuTTwHfcY?usp=sharing
